@@ -74,7 +74,7 @@ class _BodyState extends State<_Body> {
   Widget _buildSilverAppBar(BuildContext context, bool innerBoxIsScrolled) {
     return SliverOverlapAbsorber(
       handle: NestedScrollView.sliverOverlapAbsorberHandleFor(context),
-      child: SliverAppBar(
+      sliver: SliverAppBar(
         expandedHeight: 240,
         forceElevated: innerBoxIsScrolled,
         flexibleSpace: Container(

@@ -66,7 +66,6 @@ class ListViewPage extends StatelessWidget {
         .toList();
 
     items.add(Divider());
-
     items.addAll(restaurants.map<Widget>((restaurant) => ListTile(
           title: Text(
             restaurant['title'],

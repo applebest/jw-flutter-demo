@@ -10,6 +10,8 @@ class _Todo {
 }
 
 class SendDataPage extends StatelessWidget {
+
+
   final todos = List.generate(
     20,
     (i) => _Todo(
